@@ -69,7 +69,7 @@ img {
 
  /* header end*/
 
- /* main content */
+ /* main content start*/
 
 .row {
     margin-bottom: 130px;
@@ -86,6 +86,7 @@ img {
      height: auto;
      margin: 0;
      padding: 0;
+     /* font-size: 0px; */
      
 }
 
@@ -114,5 +115,23 @@ img {
 }
 
 
+ /* main content end */
 
+ button{
+     display: block;
+     margin: 0 auto;
+     height: 60px;
+     width: 165px;
+     border: 1px solid #626262;
+     font-size: 20px;
+     color: #626262;
+     margin-bottom: 70px;
+     cursor: pointer;
+ }
+
+ button:hover,
+ button:focus{
+     color: #03a9f4;
+     border: 1px solid #03a9f4;
+ }
 
