@@ -148,6 +148,7 @@ button {
   width: 165px;
   border: 1px solid #626262;
   font-size: 20px;
+  line-height: 24px;
   color: #626262;
   margin-bottom: 70px;
   cursor: pointer;
