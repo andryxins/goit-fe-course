@@ -12,12 +12,22 @@ body {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   background-color: #ffffff;
-  color: #626262;
-  font-size: 14px;
-  line-height: 24px;
 }
 
-.container {
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+.main_content {
   width: 900px;
   margin: 0 auto;
 }
@@ -29,13 +39,19 @@ img {
 }
 
 /* Header start */
-
+.page_header{
+    width: 900px;
+    margin: 0 auto;
+}
 .navigation {
   display: inline-block;
   margin: 0 auto;
-  padding: 77px 0 103px 0;
+  margin-top: 71px;
+  margin-bottom: 98px;
+  padding: 0;
   width: 100%;
   text-align: center;
+  
 }
 
 .navigation li {
@@ -44,6 +60,7 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   text-align: right;
+  
 }
 
 .navigation li:not(:last-child) {
@@ -53,6 +70,7 @@ img {
 .navigation a {
   text-decoration: none;
   font-size: 14px;
+  line-height: 24px;
   color: #626262;
 }
 
@@ -66,12 +84,12 @@ img {
 /* main content start*/
 
 .row {
-  margin-bottom: 130px;
+  margin-bottom: 128px;
   font-size: 0px;
 }
 
 .row:last-child {
-  margin-bottom: 55px;
+  margin-bottom: 50px;
 }
 
 .post {
@@ -92,25 +110,36 @@ img {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-size: 14px;
-  line-height: 21px;
-  color: #c7c1b6;
+  line-height: 17px;
+  color: #b4ad9e;
   text-transform: uppercase;
-  margin-top: 30px;
+  margin-top: 31px;
 }
 
 .title {
+  color: #626262; 
   font-size: 30px;
-  margin-top: 30px;
-  line-height: 45px;
+  margin-top: 26px;
+  line-height: 36px;
+  
 }
 
 .main_text {
   margin: 0 auto;
-  margin-top: 35px;
-  
+  margin-top: 26px;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 /* main content end */
+
+/* load more */
+.load_more{
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
 
 button {
   display: block;
@@ -122,10 +151,12 @@ button {
   color: #626262;
   margin-bottom: 70px;
   cursor: pointer;
+  
 }
 
 button:hover,
 button:focus {
   color: #03a9f4;
   border: 1px solid #03a9f4;
+  
 }
