@@ -15,16 +15,16 @@ body {
 }
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
 }
 
 .main_content {
@@ -39,9 +39,9 @@ img {
 }
 
 /* Header start */
-.page_header{
-    width: 900px;
-    margin: 0 auto;
+.page_header {
+  width: 900px;
+  margin: 0 auto;
 }
 .navigation {
   display: inline-block;
@@ -52,7 +52,6 @@ img {
   width: 100%;
   text-align: center;
   font-size: 0px;
-  
 }
 
 .navigation li {
@@ -61,21 +60,19 @@ img {
   list-style: none;
   text-decoration: none;
   text-transform: uppercase;
-  
 }
 
 .navigation li:nth-child(1) {
-    margin-right: 119px;
+  margin-right: 119px;
 }
 
 .navigation li:nth-child(2) {
-    margin-right: 101px;
+  margin-right: 101px;
 }
 
 .navigation li:nth-child(3) {
-    margin-right: 92px;
+  margin-right: 92px;
 }
-
 
 .navigation a {
   display: inline-block;
@@ -111,7 +108,6 @@ img {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  
 }
 
 .post:nth-child(odd) {
@@ -129,11 +125,10 @@ img {
 }
 
 .title {
-  color: #626262; 
+  color: #626262;
   font-size: 30px;
   margin-top: 26px;
   line-height: 36px;
-  
 }
 
 .main_text {
@@ -147,10 +142,10 @@ img {
 /* main content end */
 
 /* load more */
-.load_more{
-    width: 900px;
-    margin: 0 auto;
-    margin-bottom: 70px;
+.load_more {
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 70px;
 }
 
 button {
@@ -164,12 +159,10 @@ button {
   color: #626262;
   margin-bottom: 70px;
   cursor: pointer;
-  
 }
 
 button:hover,
 button:focus {
   color: #03a9f4;
   border: 1px solid #03a9f4;
-  
 }
