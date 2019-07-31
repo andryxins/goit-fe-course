@@ -39,10 +39,12 @@ img {
 }
 
 /* Header start */
+
 .page_header {
   width: 900px;
   margin: 0 auto;
 }
+
 .navigation {
   display: inline-block;
   margin: 0 auto;
@@ -142,6 +144,7 @@ img {
 /* main content end */
 
 /* load more */
+
 .load_more {
   width: 900px;
   margin: 0 auto;
