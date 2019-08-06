@@ -1,2 +1,271 @@
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Open Sans', sans-serif; */
+
+/* General Settings */
+
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.clearfix{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* HEADER START */
+
+.page-header {
+    margin-top: 35px;
+    margin-bottom: 85px;
+}
+
+.page-logo {
+    float: left;
+    font-size: 30px;
+    line-height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    vertical-align: middle;   
+}
+
+.page-logo a {
+    text-decoration: none;
+    color: #555252;
+}
+
+.page-logo:first-letter {
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.page-nav {
+    float: right;
+    text-align: center;
+    margin-top: 0;
+}
+
+.nav-item {
+    float: left;
+    list-style: none;
+    margin-top: -25px;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.nav-item-link {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 11px;
+    font-weight: 700;
+    color: #0f0101;
+    transition: 0.3s;
+}
+
+.nav-item-link:hover {
+    color: #1abc9c;
+    transition: 0.3s;
+}
+
+/* HEADER END */
+
+
+/* FEATURED PRODUCTS START */
+
+.featured-products {
+    margin-top: 0;
+}
+
+.featured-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #515151;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 80px;
+    margin-top: 0;
+    margin-bottom: 92px;
+}
+
+.featured-title::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    height: 7px;
+    width: 166px;
+    background-color: #1abc9c;
+}
+
+.features-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.features-list-item {
+    float: left;
+    width: 255px;
+    margin-bottom: 30px;
+}
+
+.features-list-item:not(:nth-child(4n+4)) {
+    margin-right: 30px;
+}
+
+.features-list-item:nth-last-child(-n+4) {
+    margin-bottom: 100px;
+}
+
+.features-list-item:hover {
+    cursor: pointer;
+}
+
+.features-list-item:hover a {
+    background-color: #1abc9c;
+}
+
+.features-list-item:hover p {
+    background-color: #7fd9c7;
+}
+
+.features-list-item-img {
+    width: 255px;
+    height: 282px;
+}
+
+.features-list-item-name {
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 7px 14px;
+    width: 203px;
+    background-color: #323232;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+
+.features-list-item-price {
+    float: right;
+    display: block;
+    margin: 0;
+    width: 52px;
+    padding: 7px 12px;
+    background-color: #8c8c8c;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+/* FEATURED PRODUCTS END */
+
+.blog {
+
+}
+
+.blog-title {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #515151;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 82px;
+    margin-bottom: 106px;
+}
+
+.blog-title::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    height: 7px;
+    width: 164px;
+    background-color: #1abc9c;
+}
+
+.blog-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.blog-list-item {
+    float: left;
+    width: 350px;
+    margin-bottom: 81px;
+}
+
+.blog-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.blog-list-item-subtitle {
+    font-weight: 600;
+    color: #555252;
+}
+
+.blog-list-item-subtitle::after {
+    content: "";
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color: #4ec6ab;
+}
+
+.blog-list-item-text {
+    font-size: 14px;
+    line-height: 26px;
+    color: #555252;
+}
+
+
+
+
+  
