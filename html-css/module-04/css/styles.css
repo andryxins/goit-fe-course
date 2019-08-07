@@ -102,7 +102,8 @@ img {
     transition: 0.3s;
 }
 
-.nav-item-link:hover {
+.nav-item-link:hover,
+.nav-item-link:focus {
     color: #1abc9c;
     transition: 0.3s;
 }
@@ -111,6 +112,8 @@ img {
 
 
 /* FEATURED PRODUCTS START */
+
+/* TITLE */
 
 .featured-products {
     margin-top: 0;
@@ -137,6 +140,8 @@ img {
     background-color: #1abc9c;
 }
 
+/* PRODUCT LIST */
+
 .features-list {
     margin: 0;
     padding: 0;
@@ -157,17 +162,9 @@ img {
     margin-bottom: 100px;
 }
 
-.features-list-item:hover {
-    cursor: pointer;
-}
 
-.features-list-item:hover a {
-    background-color: #1abc9c;
-}
 
-.features-list-item:hover p {
-    background-color: #7fd9c7;
-}
+
 
 .features-list-item-img {
     width: 255px;
