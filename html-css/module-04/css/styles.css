@@ -43,9 +43,9 @@ img {
     height: auto;
 }
 
-.clearfix{
-    display: table;
+.clearfix::after {
     content: "";
+    display: table;
     clear: both;
 }
 
@@ -62,13 +62,13 @@ img {
     line-height: 32px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    text-transform: uppercase;
-    vertical-align: middle;   
+    text-transform: uppercase;   
 }
 
 .page-logo a {
     text-decoration: none;
     color: #555252;
+    vertical-align: center;
 }
 
 .page-logo:first-letter {
@@ -85,7 +85,7 @@ img {
 .nav-item {
     float: left;
     list-style: none;
-    margin-top: -25px;
+    margin-top: -15px;
 }
 
 .nav-item:not(:last-child) {
@@ -126,7 +126,7 @@ img {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 48px;
-    line-height: 80px;
+    line-height: 58px;
     margin-top: 0;
     margin-bottom: 92px;
 }
@@ -135,6 +135,7 @@ img {
     content: "";
     display: block;
     margin: 0 auto;
+    margin-top: 27px;
     height: 7px;
     width: 166px;
     background-color: #1abc9c;
@@ -162,9 +163,13 @@ img {
     margin-bottom: 100px;
 }
 
+.features-list-item:hover .features-list-item-name {
+    background-color: #1abc9c;
+}
 
-
-
+.features-list-item:hover .features-list-item-price {
+    background-color: #7fd9c7;
+}
 
 .features-list-item-img {
     width: 255px;
@@ -210,14 +215,15 @@ img {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 48px;
-    line-height: 82px;
-    margin-bottom: 106px;
+    line-height: 58px;
+    margin-bottom: 77px;
 }
 
 .blog-title::after {
     content: "";
     display: block;
     margin: 0 auto;
+    margin-top: 29px;
     height: 7px;
     width: 164px;
     background-color: #1abc9c;
@@ -240,6 +246,7 @@ img {
 }
 
 .blog-list-item-subtitle {
+    margin-top: 0;
     font-weight: 600;
     color: #555252;
 }
@@ -247,6 +254,7 @@ img {
 .blog-list-item-subtitle::after {
     content: "";
     display: block;
+    margin-top: 11px;
     width: 136px;
     height: 3px;
     background-color: #4ec6ab;
