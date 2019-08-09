@@ -98,6 +98,7 @@ img {
   font-weight: 700;
   color: #0f0101;
   transition: 0.3s;
+  text-transform: uppercase;
 }
 
 .nav-item-link:hover,
@@ -177,6 +178,7 @@ img {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  font-weight: 900;
   line-height: 32px;
   transition: 0.3s;
 }
@@ -191,6 +193,7 @@ img {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  font-weight: 900;
   line-height: 32px;
   transition: 0.3s;
 }
@@ -285,6 +288,7 @@ img {
   font-weight: 300;
   font-size: 16px;
   line-height: 26px;
+  text-transform: capitalize;
   color: #ffffff;
   cursor: pointer;
 }
