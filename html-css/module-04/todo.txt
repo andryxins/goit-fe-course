@@ -1,3 +1,0 @@
-1. uppercese in header
-2. font-wight in features product
-3. capitalize in buttons
