@@ -1,5 +1,0 @@
-fix fonts +
-fix margins in slider +
-add transition +
-optimize code +-
-add titles in sections +
