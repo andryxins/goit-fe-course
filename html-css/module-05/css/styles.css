@@ -132,6 +132,12 @@ img {
   transform: translateY(-50%);
   opacity: 0.651;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.page-slider-ctrl:hover {
+  opacity: 1;
+  transition: 0.3s;
 }
 
 .icon-prev {
