@@ -49,6 +49,10 @@ img {
   clear: both;
 }
 
+main {
+  background-color: #e9f0fd;
+}
+
 /* HEADER START */
 
 .page-header {
@@ -192,8 +196,7 @@ img {
 
 .new_collection {
   margin: 0 auto;
-  padding-top: 95px;
-  background-color: #e9f0fd;
+  margin-top: 95px;
 }
 
 .new_collection-title {
