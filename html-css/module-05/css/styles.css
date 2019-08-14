@@ -101,14 +101,13 @@ main {
   line-height: 11px;
   font-weight: 700;
   color: #0f0101;
-  transition: 0.3s;
   text-transform: uppercase;
+  transition: 0.3s;
 }
 
 .nav-item-link:hover,
 .nav-item-link:focus {
   color: #1abc9c;
-  transition: 0.3s;
 }
 
 /* HEADER END */
@@ -138,7 +137,6 @@ main {
 
 .page-slider-ctrl:hover {
   opacity: 1;
-  transition: 0.3s;
 }
 
 .icon-prev {
@@ -296,7 +294,6 @@ main {
 
 .new_collection-products-item:hover .new_collection-products-item-hover {
   opacity: 1;
-  transition: 0.3s;
 }
 
 .item-hover-button {
@@ -321,20 +318,17 @@ main {
 .heart {
   background-image: url(../img/icons/icon-heart.png);
   left: 35px;
-  transition: 0.3s;
 }
 
 .mix {
   background-image: url(../img/icons/icon-mix.png);
   left: 50%;
   transform: translateX(-50%);
-  transition: 0.3s;
 }
 
 .clock {
   background-image: url(../img/icons/icon-clock.png);
   right: 35px;
-  transition: 0.3s;
 }
 
 .item-hover-button-cart {
@@ -363,7 +357,6 @@ main {
 .item-hover-button-cart:hover {
   background-color: #1abc9c;
   border: 1px solid #1abc9c;
-  transition: 0.3s;
 }
 
 /* NEW COLLECTION END */
