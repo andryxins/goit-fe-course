@@ -116,6 +116,7 @@ main {
 
 .page-slider {
   margin: 0 auto;
+  margin-bottom: 95px;
 }
 
 .slider-img {
@@ -136,7 +137,7 @@ main {
   height: 105px;
   background-color: #579f8c;
   border: none;
-  top: 225px;
+  top: 50%;
   transform: translateY(-50%);
   opacity: 0.651;
   cursor: pointer;
@@ -163,9 +164,9 @@ main {
 
 .page-slider-title {
   position: absolute;
-  top: 150px;
+  top: 45%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   width: 800px;
   font-family: "Roboto", sans-serif;
   font-size: 60px;
@@ -179,9 +180,9 @@ main {
 
 .page-slider-text {
   position: absolute;
-  top: 230px;
+  top: 56%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
   width: 800px;
@@ -199,7 +200,6 @@ main {
 
 .new_collection {
   margin: 0 auto;
-  margin-top: 95px;
 }
 
 .new_collection-title {
