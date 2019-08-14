@@ -36,7 +36,7 @@ body {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -116,7 +116,15 @@ main {
 
 .page-slider {
   margin: 0 auto;
+}
+
+.slider-img {
   position: relative;
+  min-height: 600px;
+  background-image: url(../img/slider-image-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .page-slider-ctrl {
@@ -155,9 +163,9 @@ main {
 
 .page-slider-title {
   position: absolute;
-  top: 190px;
+  top: 150px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   width: 800px;
   font-family: "Roboto", sans-serif;
   font-size: 60px;
@@ -171,9 +179,9 @@ main {
 
 .page-slider-text {
   position: absolute;
-  top: 260px;
+  top: 230px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   margin: 0;
   padding: 0;
   width: 800px;
