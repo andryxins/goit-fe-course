@@ -15,9 +15,10 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  line-height: 26px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .container {
