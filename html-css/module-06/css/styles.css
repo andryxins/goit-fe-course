@@ -175,5 +175,50 @@ img {
     padding-left: 50px;
 }
 
+/* OUR TEAM */
+
+.our_team-sub_title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333333;
+    font-family: var(--sub-title-font);
+    font-size: var(--sub-title-font-size);
+    line-height: var(--sub-title-line-height);
+}
+
+.our_team-title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.our_team-title::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 1px;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+.our_team-text {
+    margin: 0 auto;
+    padding: 0;
+    width: 980px;
+    text-align: center;
+}
+
+.our_team-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
 
 
