@@ -27,17 +27,20 @@ body {
   margin: 0 auto;
 }
 
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
+/* visually-hidden helper */
+.visually-hidden:not(:focus):not(:active),
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden {
   position: absolute;
   width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
   white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 img {
@@ -221,6 +224,11 @@ img {
 
 /* OUR TEAM START */
 
+.our_team {
+    padding: 0;
+    margin-bottom: 78px;
+}
+
 .our_team-sub_title {
     margin: 0;
     padding: 0;
@@ -275,6 +283,15 @@ img {
     position: relative;
 }
 
+.our_team-list-item-hover {
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    background: linear-gradient(to bottom, #ef8a8a, #f0d888);
+    opacity: 0;
+    z-index: 3;
+}
+
 .our_team-list-item::after {
     content: "";
     display: block;
@@ -287,7 +304,7 @@ img {
 }
 
 .our_team-list-item-img {
-
+    margin-bottom: 30px;
 }
 
 .our_team-list-item-member {
@@ -298,6 +315,7 @@ img {
     line-height: var(--title-line-height);
     font-size: 14px;
     font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .our_team-list-item-occupation {
@@ -306,17 +324,39 @@ img {
     text-align: center;
     font-weight: 300;
     font-style: italic;
+    color: #999999;
 }
 
 .members_socials-list {
     margin: 0;
     padding: 0;
+    position: absolute;
+    top: 206px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
     width: 224px;
     align-items: center;
     list-style: none;
+    opacity: 0;
+    z-index: 5;
 }
+
+.our_team-list-item:hover .members_socials-list {
+    opacity: 1;
+}
+
+.our_team-list-item:hover .our_team-list-item-hover {
+    opacity: 0.9;
+    transform: translate(-2%, -2%);
+}
+
+.our_team-list-item:hover .our_team-list-item-img {
+    transform: translate(-2%, -2%);
+    z-index: -1;
+}
+
 
 .member_socials-item {
     width: 55px;
@@ -343,6 +383,9 @@ img {
     background-image: url(../img/icons/socials-instagram.png);
 }
 
+.member_socials-item:hover {
+    background-color: #95e1d3;
+}
 
 /* OUR TEAM END */
 
@@ -392,6 +435,3 @@ img {
     font-weight: 700;
     cursor: pointer;
 }
-
-
-
