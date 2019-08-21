@@ -67,7 +67,7 @@ img {
     justify-content: space-between;
     align-items: center;
     min-height: 80px;
-    margin-bottom: 97px;
+    margin-bottom: 107px;
     padding-top: 36px;
 }
 
@@ -92,7 +92,7 @@ img {
 }
 
 .page-nav-item{
-    min-height: 40px;
+    min-height: 35px;
     align-content: center;
     transition: border var(--transition-duration) linear;
 }
