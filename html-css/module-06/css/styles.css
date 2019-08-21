@@ -56,6 +56,7 @@ img {
     --title-font: 'Montserrat', sans-serif;
     --title-font-size: 30px;
     --title-line-height: 1.2;
+    --transition-duration: 0.3s
 }
 
 /* HEADER START */
@@ -92,6 +93,7 @@ img {
 .page-nav-item{
     min-height: 40px;
     align-content: center;
+    transition: border var(--transition-duration) linear;
 }
 
 .page-nav-item a {
@@ -102,6 +104,7 @@ img {
     font-size: 14px;
     line-height: var(--title-line-height);
     font-weight: 400;
+    transition: color var(--transition-duration) linear;
 }
 
 .page-nav-item:hover a {
@@ -290,6 +293,7 @@ img {
     background: linear-gradient(to bottom, #ef8a8a, #f0d888);
     opacity: 0;
     z-index: 3;
+    transition: opacity, transform var(--transition-duration) linear;
 }
 
 .our_team-list-item::after {
@@ -305,6 +309,7 @@ img {
 
 .our_team-list-item-img {
     margin-bottom: 30px;
+    transition: z-index, transform var(--transition-duration) linear;
 }
 
 .our_team-list-item-member {
@@ -341,6 +346,7 @@ img {
     list-style: none;
     opacity: 0;
     z-index: 5;
+    transition: opacity var(--transition-duration) linear;
 }
 
 .our_team-list-item:hover .members_socials-list {
@@ -357,7 +363,6 @@ img {
     z-index: -1;
 }
 
-
 .member_socials-item {
     width: 55px;
     height: 55px;
@@ -365,6 +370,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+    transition: background-color var(--transition-duration) linear;
 }
 
 .facebook {
