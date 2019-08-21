@@ -319,6 +319,7 @@ img {
     text-align: center;
     font-family: var(--title-font);
     line-height: var(--title-line-height);
+    text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
