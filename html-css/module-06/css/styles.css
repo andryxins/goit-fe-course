@@ -57,7 +57,7 @@ img {
     --title-font: 'Montserrat', sans-serif;
     --title-font-size: 30px;
     --title-line-height: 1.2;
-    --transition-duration: 0.3s
+    --transition-duration: 200ms;
 }
 
 /* HEADER START */
