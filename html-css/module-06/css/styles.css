@@ -431,6 +431,7 @@ img {
   width: 230px;
   height: 40px;
   border: #e5e5e5 solid 1px;
+  padding: 14px 12px; 
 }
 
 .input_form-button {
