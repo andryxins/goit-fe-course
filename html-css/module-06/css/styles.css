@@ -90,7 +90,16 @@ img {
 .page-nav-item {
   min-height: 35px;
   align-content: center;
-  transition: border var(--transition-duration) linear;
+}
+
+.page-nav-item::after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #f38181;
+  opacity: 0;
+  transition: opacity var(--transition-duration) linear;
 }
 
 .page-nav-item a {
@@ -108,8 +117,8 @@ img {
   color: #f38181;
 }
 
-.page-nav-item:hover {
-  border-bottom: 3px solid #f38181;
+.page-nav-item:hover::after {
+  opacity: 1;
 }
 
 /* HEADER END */
@@ -431,7 +440,7 @@ img {
   width: 230px;
   height: 40px;
   border: #e5e5e5 solid 1px;
-  padding: 14px 12px; 
+  padding: 14px 12px;
 }
 
 .input_form-button {
