@@ -26,13 +26,13 @@
       </nav>
     </header>
     <main>
-      <section class="services">
+      <section class="services container">
         <h2 class="services-title">services</h2>
         <p class="services-sub_title">
           Proin iaculis purus consequat sem cure.
         </p>
         <ul class="services-list">
-          <li class="services-list-item">
+          <li class="services-list-item basket">
             <h3 class="services-list-item-title">E-Commerce</h3>
             <p class="services-list-item-text">
               Proin iaculis purus consequat sem cure digni ssim. Donec
@@ -40,7 +40,7 @@
               tincidunt.
             </p>
           </li>
-          <li class="services-list-item">
+          <li class="services-list-item laptop">
             <h3 class="services-list-item-title">Responsive Web</h3>
             <p class="services-list-item-text">
               Proin iaculis purus consequat sem cure digni ssim. Donec
@@ -48,7 +48,7 @@
               tincidunt.
             </p>
           </li>
-          <li class="services-list-item">
+          <li class="services-list-item locked">
             <h3 class="services-list-item-title">Web Security</h3>
             <p class="services-list-item-text">
               Proin iaculis purus consequat sem cure digni ssim. Donec
@@ -59,15 +59,19 @@
         </ul>
       </section>
       <section class="contact">
+          <div class="container">
           <h2 class="contact-title">Contact us</h2>
           <p class="contact-sub_title">Proin iaculis purus consequat sem cure.</p>
           <form class="contact-form" action="#" method="get">
-              <input class="contact-input-items" type="text" name="userName" placeholder="your name *" required>
-              <input class="contact-input-items" type="email" name="userEmail" placeholder="your e-mail *" required>
-              <input class="contact-input-items" type="text" name="userSubject" placeholder="subject">
-              <textarea name="userMessage" cols="30" rows="10" placeholder="your message *" required></textarea>
-              <button type="submit">send message</button>
+              <ul class="input-list">
+                  <li class="input-list-item"><input class="input-items validation" type="text" name="userName" placeholder="your name *" required></li>
+                  <li class="input-list-item"><input class="input-items validation" type="email" name="userEmail" placeholder="your e-mail *" required></li>
+                  <li class="input-list-item"><input class="input-items" type="text" name="userSubject" placeholder="subject"></li>
+              </ul>
+              <textarea class="input-text_area validation" name="userMessage" cols="30" rows="10" placeholder="your message *" required></textarea>
+              <button class="contact_button" type="submit">send message</button>
           </form>
+          </div>
       </section>
     </main>
   </body>
