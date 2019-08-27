@@ -1,6 +1,6 @@
-/* font-family: 'Great Vibes', cursive; */
-
 /* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
 
 @font-face {
   font-family: "Montserrat";
@@ -81,47 +81,47 @@ img {
 /* HEADER START */
 
 .page-header {
-    margin: 0;
-    padding: 0;
-    padding-top: 50px;
-    margin-bottom: 120px;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  margin-bottom: 120px;
 }
 
 .page-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .page-logo {
-    display: inline-block;
-    padding-left: 5px;
-    font-family: 'Great Vibes', cursive;
-    text-decoration: none;
-    color: #fed136;
-    font-size: 36px;
+  display: inline-block;
+  padding-left: 5px;
+  font-family: 'Great Vibes', cursive;
+  text-decoration: none;
+  color: #fed136;
+  font-size: 36px;
 }
 
 .page-nav-list {
-    display: flex;
-    flex-shrink: 2;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    justify-content: space-between;
-    flex-basis: 485px;
+  display: flex;
+  flex-shrink: 2;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: space-between;
+  flex-basis: 485px;
 }
 
 .page-nav-list-item a {
-    text-decoration: none;
-    color: #222222;
-    text-transform: uppercase;
-    font-size: 14px;
-    transition: color 200ms linear;
+  text-decoration: none;
+  color: #222222;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: color 200ms linear;
 }
 
 .page-nav-list-item a:hover {
-    color: #fed136;
+  color: #fed136;
 }
 
 /* HEADER END */
@@ -129,81 +129,81 @@ img {
 /* SERVICES START */
 
 .services {
-    margin-bottom: 122px;
+  margin-bottom: 122px;
 }
 
 .services-title {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 40px;
-    color: #222222;
-    margin-bottom: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  color: #222222;
+  margin-bottom: 16px;
 }
 
 .services-sub_title {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: "Droid Serif Italic";
-    font-style: 16px;
-    margin-bottom: 80px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Droid Serif Italic";
+  font-style: 16px;
+  margin-bottom: 80px;
 }
 
 .services-list {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
 }
 
 .services-list-item {
-    flex-basis: 290px;
-    text-align: center;
+  flex-basis: 290px;
+  text-align: center;
 }
 
 .services-list-item::before {
-    content: "";
-    display: inline-block;
-    height: 72px;
-    width: 72px;
-    border: 3px solid #fed136;
-    border-radius: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 26px;
+  content: "";
+  display: inline-block;
+  height: 72px;
+  width: 72px;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 26px;
 }
 
 .basket::before {
-    background-image: url(../img/icons/Icon-Basket.png);
+  background-image: url(../img/icons/Icon-Basket.png);
 }
 
 .laptop::before {
-    background-image: url(../img/icons/Icon-Laptop.png);
+  background-image: url(../img/icons/Icon-Laptop.png);
 }
 
 .locked::before {
-    background-image: url(../img/icons/Icon-Locked.png);
+  background-image: url(../img/icons/Icon-Locked.png);
 }
 
 .services-list-item-title {
-    padding: 0;
-    margin: 0;
-    font-weight: 700;
-    font-size: 18px;
-    color: #222222;
-    margin-bottom: 12px;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 12px;
 }
 
 .services-list-item-text {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto Slab";
-    font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab";
+  font-size: 14px;
 }
 
 /* SERVICES END */
@@ -211,113 +211,113 @@ img {
 /* CONTACT START */
 
 .contact {
-    padding: 112px 0;
-    background-color: #222222;
-    background-image: url(../img/Map\ Image.png);
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: right;
-    background-size: 537px 614px;
+  padding: 112px 0;
+  background-color: #222222;
+  background-image: url(../img/Map\Image.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: right;
+  background-size: 537px 614px;
 }
 
 .contact-title {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 40px;
-    color: #ffffff;
-    margin-bottom: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .contact-sub_title {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: "Droid Serif Italic";
-    font-style: 16px;
-    margin-bottom: 75px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Droid Serif Italic";
+  font-style: 16px;
+  margin-bottom: 75px;
 }
 
 .contact-form {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    align-items: flex-start;
-    min-height: 310px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: flex-start;
+  min-height: 310px;
+  flex-wrap: wrap;
 }
 
 .input-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    margin-bottom: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 30px;
 }
 
 .input-list-item:not(:nth-last-child(1)) {
-    margin-bottom: 27px;
+  margin-bottom: 27px;
 }
 
 .input-items {
-    padding: 20px 20px;
-    border: none;
-    border-radius: 2px;
-    width: 455px;
-    height: 52px;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 2px;
+  width: 455px;
+  height: 52px;
 }
 
 .validation:focus:valid {
-    outline: 3px solid green;
+  outline: 3px solid green;
 }
 
 .validation:focus:invalid {
-    outline: 3px solid red;
+  outline: 3px solid red;
 }
 
 .input-items::placeholder {
-    font-weight: 700;
-    color: #bbbbbb;
-    font-size: 14px;
-    text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .input-text_area {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 30px;
-    padding: 20px 20px;
-    width: 455px;
-    height: 211px;
-    border: none;
-    border-radius: 2px;
-    resize: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  padding: 20px 20px;
+  width: 455px;
+  height: 211px;
+  border: none;
+  border-radius: 2px;
+  resize: none;
 }
 
 .input-text_area::placeholder {
-    font-weight: 700;
-    color: #bbbbbb;
-    font-size: 14px;
-    text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbbb;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .contact_button {
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 22px 45px;
-    width: 241px;
-    height: 65px;
-    border: none;
-    border-radius: 2px;
-    background-color: #fed136;
-    font-weight: 700;
-    font-size: 18px;
-    color: #ffffff;
-    text-transform: uppercase;
-    cursor: pointer;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 22px 45px;
+  width: 241px;
+  height: 65px;
+  border: none;
+  border-radius: 2px;
+  background-color: #fed136;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* CONTACT END */
