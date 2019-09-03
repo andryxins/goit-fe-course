@@ -1,4 +1,4 @@
-@media screen (max-width: 767px) {
+@media (max-width: 767px) {
     .container {
         width: 320px;
         margin: 0 auto;
@@ -43,50 +43,7 @@
     }
 }
 
-@media (min-width: 768px) {
-    .page-button {
-        width: 22.7rem;
-    }
-
-    .page-logo {
-        order: 1;
-        margin-right: auto;
-    }
-
-    .log_in {
-        font-size: 1.4rem;
-        order: 2;
-    }
-
-    .sign_up {
-        font-size: 1.4rem;
-        order: 3;
-    }
-
-    .partners-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .icon-1 {
-        order: 1;
-    }
-
-    .icon-2 {
-        order: 3
-    }
-
-    .icon-3 {
-        order: 2
-    }
-
-    .icon-4 {
-        order: 4;
-    }
-}
-
-@media screen (min-width: 768px) and (max-width: 939px) {
+@media (min-width: 768px) and (max-width: 939px) {
     .container {
         width: 748px;
         margin: 0 auto;
@@ -168,4 +125,48 @@
     .partners .page-button {
         margin-bottom: 4rem;
     }
+}
+
+@media (min-width: 768px) {
+    .page-button {
+        width: 22.7rem;
+    }
+
+    .page-logo {
+        order: 1;
+        margin-right: auto;
+    }
+
+    .log_in {
+        font-size: 1.4rem;
+        order: 2;
+    }
+
+    .sign_up {
+        font-size: 1.4rem;
+        order: 3;
+    }
+
+    .partners-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icon-1 {
+        order: 1;
+    }
+
+    .icon-2 {
+        order: 3
+    }
+
+    .icon-3 {
+        order: 2
+    }
+
+    .icon-4 {
+        order: 4;
+    }
+
 }
