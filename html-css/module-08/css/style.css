@@ -53,12 +53,6 @@ body {
   font-size: 1.5rem;
 }
 
-.container {
-  width: 320px;
-  margin: 0 auto;
-  padding: 1.4rem;
-}
-
 /* visually-hidden helper */
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
@@ -112,14 +106,6 @@ img {
     color: #ffffff;
 }
 
-.page-header .container {
-    padding-bottom: 13.8rem;
-}
-
-.user-controls {
-    margin-bottom: 4rem;
-}
-
 .log_in {
     padding: 0;
     width: 92px;
@@ -142,11 +128,6 @@ img {
     border-radius: 2rem;
 }
 
-.log_in,
-.sign_up {
-    margin-bottom: 11.5rem;
-}
-
 .page-logo {
     margin: 0;
     padding: 0;
@@ -160,7 +141,6 @@ img {
     padding: 0;
     font-size: 3rem;
     text-transform: uppercase;
-    margin-bottom: 1.5rem;
 }
 
 .header-subtitle {
@@ -169,7 +149,6 @@ img {
     font-family: "Roboto";
     font-weight: 300;
     font-size: 1.8rem;
-    margin-bottom: 1.7rem;
 }
 
 /* HEADER END */
@@ -185,7 +164,6 @@ img {
     margin: 0;
     padding: 0;
     font-size: 2.2rem;
-    margin-bottom: 1.8rem;
 }
 
 .partners-list {
@@ -199,13 +177,8 @@ img {
     position: relative;
 }
 
-.partners-list-item:not(:last-child) {
-    margin-bottom: 2.5rem;
-}
-
 .partners-list-item-img {
     margin: 0 auto;
-    margin-bottom: 20px;
 }
 
 .partners-list-item::after {
@@ -248,7 +221,6 @@ img {
     margin: 0;
     padding: 0;
     font-size: 1.4rem;
-    margin-bottom: 14px;
 }
 
 .partners-list-item-description {

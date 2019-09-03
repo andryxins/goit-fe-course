@@ -1,0 +1,44 @@
+@media (min-width: 320px) and (max-width: 747px) {
+    .container {
+        width: 320px;
+        margin: 0 auto;
+        padding: 1.4rem;
+      }
+
+    .page-header .container {
+        padding-bottom: 13.8rem;
+    }
+
+    .user-controls {
+        margin-bottom: 4rem;
+    }
+
+    .log_in,
+    .sign_up {
+    margin-bottom: 11.5rem;
+    }
+
+    .header-title {
+        margin-bottom: 1.5rem;
+    }
+
+    .header-subtitle {
+        margin-bottom: 1.7rem;
+    }
+
+    .partners-title {
+        margin-bottom: 1.8rem;
+    }
+
+    .partners-list-item:not(:last-child) {
+        margin-bottom: 2.5rem;
+    }
+
+    .partners-list-item-img {
+        margin-bottom: 20px;
+    }
+
+    .partners-list-item-title {
+        margin-bottom: 14px;
+    }
+}
