@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 747px) {
+@media (max-width: 767px) {
     .container {
         width: 320px;
         margin: 0 auto;
@@ -41,4 +41,132 @@
     .partners-list-item-title {
         margin-bottom: 14px;
     }
+}
+
+@media (min-width: 768px) and (max-width: 939px) {
+    .container {
+        width: 748px;
+        margin: 0 auto;
+        padding: 0 4.3rem;
+    }
+
+    .user-controls {
+        padding-top: 3.8rem;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 16rem;
+    }
+
+    .page-logo {
+        order: 1;
+        margin-right: auto;
+    }
+
+    .log_in {
+        font-size: 1.4rem;
+        order: 2;
+    }
+
+    .sign_up {
+        font-size: 1.4rem;
+        order: 3;
+    }
+
+    .header-title {
+        padding: 0 7rem;
+        font-size: 5.2rem;
+        margin-bottom: 4rem;
+    }
+
+    .header-subtitle {
+        padding: 0;
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+    }
+
+    .page-button {
+        width: 22.7rem;
+    }
+
+    .page-header .page-button {
+        margin-bottom: 23.3rem;
+    }
+
+    .partners-title {
+        margin-bottom: 3.2rem;
+    }
+
+    .partners-list {
+        margin: 0;
+    }
+
+    .partners-list-item {
+        flex-basis: 23.6rem;
+        margin-bottom: 6rem;
+    }
+
+    .partners-list-item::after {
+        right: 55px;
+    }
+
+    .partners-list-item-img {
+        margin-bottom: 2rem;
+    }
+
+    .partners-list-item-title {
+        margin-bottom: 1rem;
+    }
+
+    .partners-list-item-description {
+        padding: 0 1.2rem;
+    }
+
+    .partners .page-button {
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .page-button {
+        width: 22.7rem;
+    }
+
+    .page-logo {
+        order: 1;
+        margin-right: auto;
+    }
+
+    .log_in {
+        font-size: 1.4rem;
+        order: 2;
+    }
+
+    .sign_up {
+        font-size: 1.4rem;
+        order: 3;
+    }
+
+    .partners-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icon-1 {
+        order: 1;
+    }
+
+    .icon-2 {
+        order: 3
+    }
+
+    .icon-3 {
+        order: 2
+    }
+
+    .icon-4 {
+        order: 4;
+    }
+
 }
