@@ -1,49 +1,12 @@
-@media (max-width: 767px) {
-    .container {
-        width: 320px;
-        margin: 0 auto;
-        padding: 1.4rem;
-      }
-
-    .page-header .container {
-        padding-bottom: 13.8rem;
-    }
-
-    .user-controls {
-        margin-bottom: 4rem;
-    }
-
-    .log_in,
-    .sign_up {
-    margin-bottom: 11.5rem;
-    }
-
-    .header-title {
-        margin-bottom: 1.5rem;
-    }
-
-    .header-subtitle {
-        margin-bottom: 1.7rem;
-    }
-
-    .partners-title {
-        margin-bottom: 1.8rem;
-    }
-
-    .partners-list-item:not(:last-child) {
-        margin-bottom: 2.5rem;
-    }
-
-    .partners-list-item-img {
-        margin-bottom: 20px;
-    }
-
-    .partners-list-item-title {
-        margin-bottom: 14px;
-    }
-}
 
 @media (min-width: 768px) {
+
+    .container {
+        width: 748px;
+        margin: 0 auto;
+        padding: 0 1.3rem;
+    }
+
     .page-button {
         width: 22.7rem;
     }
@@ -75,6 +38,11 @@
         order: 3;
     }
 
+    .log_in,
+    .sign_up {
+        margin-bottom: 0;
+    }
+
     .header-title {
         padding: 0 7rem;
         font-size: 5.2rem;
@@ -91,6 +59,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin: 0;
+        margin-bottom: 3.7rem;
     }
 
     .icon-1 {
@@ -109,17 +79,6 @@
         order: 4;
     }
 
-}
-
-
-@media (min-width: 768px) and (orientation: landscape) {
-
-    .container {
-        width: 748px;
-        margin: 0 auto;
-        padding: 0 1.3rem;
-    }
-
     .header-title {
         padding: 0 7rem;
         font-size: 5.2rem;
@@ -132,10 +91,6 @@
         margin-bottom: 3rem;
     }
 
-    .page-button {
-        width: 22.7rem;
-    }
-
     .partners {
         margin-bottom: 4rem;
     }
@@ -144,13 +99,12 @@
         margin-bottom: 3.2rem;
     }
 
-    .partners-list {
-        margin: 0;
-        margin-bottom: 3.7rem;
-    }
-
     .partners-list-item {
         flex-basis: 25rem;
+    }
+
+    .partners-list-item:not(:last-child) {
+        margin-bottom: 0;
     }
 
     .partners-list-item:nth-child(odd) {

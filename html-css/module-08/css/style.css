@@ -53,6 +53,12 @@ body {
   font-size: 1.5rem;
 }
 
+.container {
+    width: 320px;
+    margin: 0 auto;
+    padding: 1.4rem;
+}
+
 /* visually-hidden helper */
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
@@ -84,6 +90,7 @@ img {
     border-radius: 2rem;
     background-color: transparent;
     color: rgb(255, 78, 80);
+    cursor: pointer;
 }
 
 .page-button:hover,
@@ -95,6 +102,11 @@ img {
 
 /* HEADER START */
 
+.page-header .container {
+    padding-top: 1.9rem;
+    padding-bottom: 13.8rem;
+}
+
 .page-header {
     margin-bottom: 7rem;
     background-color: #000000;
@@ -104,6 +116,10 @@ img {
     background-size: cover;
     text-align: center;
     color: #ffffff;
+}
+
+.user-controls {
+    margin-bottom: 3.2rem;
 }
 
 .log_in {
@@ -128,6 +144,11 @@ img {
     border-radius: 2rem;
 }
 
+.log_in,
+.sign_up {
+    margin-bottom: 11.3rem;
+}
+
 .page-logo {
     margin: 0;
     padding: 0;
@@ -141,6 +162,7 @@ img {
     padding: 0;
     font-size: 3rem;
     text-transform: uppercase;
+    margin-bottom: 1.2rem;
 }
 
 .header-subtitle {
@@ -149,6 +171,12 @@ img {
     font-family: "Roboto";
     font-weight: 300;
     font-size: 1.8rem;
+    margin-bottom: 1.7rem;
+}
+
+.page-header .page-button {
+    background-color: #ff4e50;
+    color: #ffffff;
 }
 
 /* HEADER END */
@@ -163,6 +191,7 @@ img {
     margin: 0;
     padding: 0;
     font-size: 2.2rem;
+    margin-bottom: 1.8rem;
 }
 
 .partners-list {
@@ -176,8 +205,13 @@ img {
     position: relative;
 }
 
+.partners-list-item:not(:last-child) {
+    margin-bottom: 2.5rem;
+}
+
 .partners-list-item-img {
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .partners-list-item::after {
@@ -220,6 +254,7 @@ img {
     margin: 0;
     padding: 0;
     font-size: 1.4rem;
+    margin-bottom: 14px;
 }
 
 .partners-list-item-description {
