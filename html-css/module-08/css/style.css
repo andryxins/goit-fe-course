@@ -108,7 +108,7 @@ img {
 }
 
 .page-header {
-    margin-bottom: 7rem;
+    margin-bottom: 5.3rem;
     background-color: #000000;
     background-image: url(../img/header-background-1440.png);
     background-repeat: no-repeat;
@@ -185,20 +185,21 @@ img {
 
 .partners {
     text-align: center;
+    margin-bottom: 4.3rem;
 }
 
 .partners-title {
     margin: 0;
     padding: 0;
     font-size: 2.2rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.7rem;
 }
 
 .partners-list {
     margin: 0;
     padding: 0;
     list-style: none;
-    margin-bottom: 2.8rem;
+    margin-bottom: 2.7rem;
 }
 
 .partners-list-item {
@@ -211,7 +212,7 @@ img {
 
 .partners-list-item-img {
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 1.8rem;
 }
 
 .partners-list-item::after {
@@ -254,7 +255,7 @@ img {
     margin: 0;
     padding: 0;
     font-size: 1.4rem;
-    margin-bottom: 14px;
+    margin-bottom: 1.2rem;
 }
 
 .partners-list-item-description {
