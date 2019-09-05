@@ -7,20 +7,24 @@
         padding: 0 1.3rem;
     }
 
+    .page-header .container {
+        padding-bottom: 23.4rem;
+    }
+
+    .page-header {
+        margin-bottom: 7.1rem;
+    }
+
     .page-button {
         width: 22.7rem;
     }
 
-    .page-header .page-button {
-        margin-bottom: 23.3rem;
-    }
-
     .user-controls {
-        padding-top: 3.8rem;
+        padding-top: 2.8rem;
         display: flex;
         align-items: center;
         width: 100%;
-        margin-bottom: 16rem;
+        margin-bottom: 14.6rem;
     }
 
     .page-logo {
@@ -46,13 +50,27 @@
     .header-title {
         padding: 0 7rem;
         font-size: 5.2rem;
-        margin-bottom: 4rem;
+        margin-bottom: 3.5rem;
     }
 
     .header-subtitle {
         padding: 0;
         font-size: 2.4rem;
         margin-bottom: 3rem;
+    }
+
+    .header-subtitle {
+        padding: 0;
+        font-size: 2.4rem;
+        margin-bottom: 3rem;
+    }
+
+    .partners {
+        margin-bottom: 4rem;
+    }
+
+    .partners-title {
+        margin-bottom: 2.9rem;
     }
 
     .partners-list {
@@ -79,26 +97,6 @@
         order: 4;
     }
 
-    .header-title {
-        padding: 0 7rem;
-        font-size: 5.2rem;
-        margin-bottom: 4rem;
-    }
-
-    .header-subtitle {
-        padding: 0;
-        font-size: 2.4rem;
-        margin-bottom: 3rem;
-    }
-
-    .partners {
-        margin-bottom: 4rem;
-    }
-
-    .partners-title {
-        margin-bottom: 3.2rem;
-    }
-
     .partners-list-item {
         flex-basis: 25rem;
     }
@@ -114,14 +112,14 @@
     .partners-list-item::after {
         right: 55px;
     }
-
+/* 
     .partners-list-item-img {
         margin-bottom: 2rem;
     }
 
     .partners-list-item-title {
         margin-bottom: 1rem;
-    }
+    } */
 
     .partners-list-item-description {
         padding: 0 1.2rem;
@@ -137,7 +135,6 @@
 
     .header-title {
         padding: 0 16rem;
-        padding-top: 1.6rem;
     }
 
     .partners {
@@ -154,7 +151,7 @@
     }
 
     .partners-list {
-        margin-bottom: 4rem;
+        margin-bottom: 3.9rem;
     }
 
     .partners-list-item::after {
