@@ -54,9 +54,9 @@ body {
 }
 
 .container {
-    width: 320px;
-    margin: 0 auto;
-    padding: 1.4rem;
+  width: 320px;
+  margin: 0 auto;
+  padding: 1.4rem;
 }
 
 /* visually-hidden helper */
@@ -82,101 +82,101 @@ img {
 }
 
 .page-button {
-    margin: 0;
-    padding: 0;
-    width: 24.2rem;
-    height: 4.2rem;
-    border: 2px solid rgb(255, 78, 80);
-    border-radius: 2rem;
-    background-color: transparent;
-    color: rgb(255, 78, 80);
-    cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: 24.2rem;
+  height: 4.2rem;
+  border: 2px solid rgb(255, 78, 80);
+  border-radius: 2rem;
+  background-color: transparent;
+  color: rgb(255, 78, 80);
+  cursor: pointer;
 }
 
 .page-button:hover,
 .page-button:focus {
-    border: none;
-    background-color: rgb(255, 78, 80);
-    color: #ffffff;
+  border: none;
+  background-color: rgb(255, 78, 80);
+  color: #ffffff;
 }
 
 /* HEADER START */
 
 .page-header .container {
-    padding-top: 1.9rem;
-    padding-bottom: 13.8rem;
+  padding-top: 1.9rem;
+  padding-bottom: 13.8rem;
 }
 
 .page-header {
-    margin-bottom: 5.3rem;
-    background-color: #000000;
-    background-image: url(../img/header-background-1440.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #ffffff;
+  margin-bottom: 5.3rem;
+  background-color: #000000;
+  background-image: url(../img/header-background-1440.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
 }
 
 .user-controls {
-    margin-bottom: 3.2rem;
+  margin-bottom: 3.2rem;
 }
 
 .log_in {
-    padding: 0;
-    width: 92px;
-    height: 37px;
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
-    color: #ffffff;
+  padding: 0;
+  width: 92px;
+  height: 37px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
 }
 
 .sign_up {
-    padding: 0;
-    width: 92px;
-    height: 37px;
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    border-radius: 2rem;
+  padding: 0;
+  width: 92px;
+  height: 37px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 2rem;
 }
 
 .log_in,
 .sign_up {
-    margin-bottom: 11.3rem;
+  margin-bottom: 11.3rem;
 }
 
 .page-logo {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 2rem;
 }
 
 .header-title {
-    margin: 0;
-    padding: 0;
-    font-size: 3rem;
-    text-transform: uppercase;
-    margin-bottom: 1.2rem;
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
 }
 
 .header-subtitle {
-    margin: 0;
-    padding: 0 2.5rem;
-    font-family: "Roboto";
-    font-weight: 300;
-    font-size: 1.8rem;
-    margin-bottom: 1.7rem;
+  margin: 0;
+  padding: 0 2.5rem;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin-bottom: 1.7rem;
 }
 
 .page-header .page-button {
-    background-color: #ff4e50;
-    color: #ffffff;
+  background-color: #ff4e50;
+  color: #ffffff;
 }
 
 /* HEADER END */
@@ -184,87 +184,87 @@ img {
 /* SECTION PARTNERS START */
 
 .partners {
-    text-align: center;
-    margin-bottom: 4.3rem;
+  text-align: center;
+  margin-bottom: 4.3rem;
 }
 
 .partners-title {
-    margin: 0;
-    padding: 0;
-    font-size: 2.2rem;
-    margin-bottom: 1.7rem;
+  margin: 0;
+  padding: 0;
+  font-size: 2.2rem;
+  margin-bottom: 1.7rem;
 }
 
 .partners-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    margin-bottom: 2.7rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 2.7rem;
 }
 
 .partners-list-item {
-    position: relative;
+  position: relative;
 }
 
 .partners-list-item:not(:last-child) {
-    margin-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .partners-list-item-img {
-    margin: 0 auto;
-    margin-bottom: 1.8rem;
+  margin: 0 auto;
+  margin-bottom: 1.8rem;
 }
 
 .partners-list-item::after {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 85px;
-    right: 90px;
-    z-index: 5;
-    color: #ffffff;
-    border-radius: 50%;
-    border: 5px solid #ffffff;
-    background-repeat: no-repeat;
-    background-position: center;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 85px;
+  right: 90px;
+  z-index: 5;
+  color: #ffffff;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .icon-1::after {
-    background-color: #ff4e50;
-    background-image: url(../img/icons/icon-partner-1.png);
+  background-color: #ff4e50;
+  background-image: url(../img/icons/icon-partner-1.png);
 }
 
 .icon-2::after {
-    background-color: #ffa507;
-    background-image: url(../img/icons/icon-partner-2.png);
+  background-color: #ffa507;
+  background-image: url(../img/icons/icon-partner-2.png);
 }
 
 .icon-3::after {
-    background-color: #1cd7ad;
-    background-image: url(../img/icons/icon-partner-3.png);
+  background-color: #1cd7ad;
+  background-image: url(../img/icons/icon-partner-3.png);
 }
 
 .icon-4::after {
-    background-color: #4e73db;
-    background-image: url(../img/icons/icon-partner-4.png);
+  background-color: #4e73db;
+  background-image: url(../img/icons/icon-partner-4.png);
 }
 
 .partners-list-item-title {
-    margin: 0;
-    padding: 0;
-    font-size: 1.4rem;
-    margin-bottom: 1.2rem;
+  margin: 0;
+  padding: 0;
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
 }
 
 .partners-list-item-description {
-    margin: 0;
-    padding: 0 3.2rem;
-    font-size: 1.4rem;
-    font-family: "Roboto";
-    font-weight: 300;
-    color: #666666;
+  margin: 0;
+  padding: 0 3.2rem;
+  font-size: 1.4rem;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #666666;
 }
 
 /* SECTION PARTNERS END */
