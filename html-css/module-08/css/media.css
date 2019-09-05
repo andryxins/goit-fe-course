@@ -112,18 +112,14 @@
     .partners-list-item::after {
         right: 55px;
     }
-/* 
-    .partners-list-item-img {
-        margin-bottom: 2rem;
-    }
-
-    .partners-list-item-title {
-        margin-bottom: 1rem;
-    } */
 
     .partners-list-item-description {
         padding: 0 1.2rem;
     }
+
+    .partners .page-button {
+        width: 20rem;
+    } 
 
 }
 
@@ -142,11 +138,14 @@
     }
 
     .partners-title {
-        margin-bottom: 3rem;
+        margin-bottom: 3.6rem;
     }
 
     .partners-list-item {
         flex-basis: 22rem;
+    }
+
+    .partners-list-item:nth-child(odd) {
         margin-bottom: 0;
     }
 
@@ -155,7 +154,7 @@
     }
 
     .partners-list-item::after {
-        right: 55px;
+        right: 45px;
     }
 
     .partners-list-item-description {
