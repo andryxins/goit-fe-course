@@ -91,10 +91,11 @@ img {
   background-color: transparent;
   color: rgb(255, 78, 80);
   cursor: pointer;
+  transition: 100ms;
 }
 
-.page-button:hover,
-.page-button:focus {
+.partners .page-button:hover,
+.partners .page-button:focus {
   border: none;
   background-color: rgb(255, 78, 80);
   color: #ffffff;
@@ -122,16 +123,7 @@ img {
   margin-bottom: 3.2rem;
 }
 
-.log_in {
-  padding: 0;
-  width: 92px;
-  height: 37px;
-  border: none;
-  cursor: pointer;
-  background-color: transparent;
-  color: #ffffff;
-}
-
+.log_in,
 .sign_up {
   padding: 0;
   width: 92px;
@@ -140,8 +132,13 @@ img {
   cursor: pointer;
   background-color: transparent;
   color: #ffffff;
-  border: 2px solid #ffffff;
-  border-radius: 2rem;
+  transition: border 100ms linear;
+}
+
+.log_in:hover,
+.sign_up:hover {
+    border: 2px solid #ffffff;
+    border-radius: 2rem;
 }
 
 .log_in,
@@ -204,10 +201,6 @@ img {
 
 .partners-list-item {
   position: relative;
-}
-
-.partners-list-item:not(:last-child) {
-  margin-bottom: 2.5rem;
 }
 
 .partners-list-item-img {
