@@ -145,10 +145,6 @@
     flex-basis: 22rem;
   }
 
-  .partners-list-item:nth-child(odd) {
-    margin-bottom: 0;
-  }
-
   .partners-list {
     margin-bottom: 3.9rem;
   }
