@@ -19,6 +19,11 @@
   .page-header .page-button {
       margin-bottom: 13.8rem;
   }
+
+  .partners-title {
+      margin-bottom: 1.7rem;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -45,11 +50,47 @@
     .page-header .page-button {
         margin-bottom: 23.3rem;
     }
+
+    .partners-title {
+        margin-bottom: 2.9rem;
+    }
+
+    .partners-list-item::after {
+        right: 80px;
+      }
+
+    .partners .page-button {
+        width: 20rem;
+    }
+
+    .partners-list {
+        margin-bottom: 3.7rem;
+    }
 }
 
 @media (min-width: 940px) {
     .page-header {
         padding-top: 3.8rem;
     }
+
+    .partners-list {
+        margin-bottom: 3.9rem;
+      }
+
+    .partners-title {
+        margin-bottom: 3.6rem;
+      }
+
+      .partners-list-item-description {
+        padding: 0;
+      }
+
+    .partners-list-item::after {
+        right: 45px;
+      }
+
+      .partners {
+        margin-bottom: 7.2rem;
+      }
 }
 

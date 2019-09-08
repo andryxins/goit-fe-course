@@ -168,14 +168,10 @@
   margin: 0;
   padding: 0;
   font-size: 2.2rem;
-  margin-bottom: 1.7rem;
   text-align: center;
 }
 
 .partners-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
   margin-bottom: 2.7rem;
 }
 
@@ -226,15 +222,14 @@
 }
 
 .partners-list-item-title {
-  margin: 0;
-  padding: 0;
+  text-align: center;
   font-size: 1.4rem;
   margin-bottom: 1.2rem;
 }
 
 .partners-list-item-description {
-  margin: 0;
-  padding: 0 3.2rem;
+  padding: 0 2.8rem;
+  text-align: center;
   font-size: 1.4rem;
   font-family: "Roboto";
   font-weight: 300;
