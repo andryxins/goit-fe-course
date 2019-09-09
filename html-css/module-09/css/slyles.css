@@ -176,7 +176,6 @@
 }
 
 .partners-list-item {
-  flex: 0 0 220px;
   position: relative;
 }
 
@@ -222,12 +221,15 @@
 }
 
 .partners-list-item-title {
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-size: 1.4rem;
   margin-bottom: 1.2rem;
 }
 
 .partners-list-item-description {
+  margin: 0;
   padding: 0 2.8rem;
   text-align: center;
   font-size: 1.4rem;

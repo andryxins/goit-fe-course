@@ -24,6 +24,10 @@
       margin-bottom: 1.7rem;
   }
 
+  .partners-list-item {
+    margin-bottom: 2.7rem;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -68,6 +72,12 @@
     }
 }
 
+/* @media (min-width: 768px) and (max-width: 939px) {
+    .partners-list-item:nth-child(odd) {
+            margin-bottom: 5.5rem;
+    }
+} */
+
 @media (min-width: 940px) {
     .page-header {
         padding-top: 3.8rem;
@@ -91,6 +101,10 @@
 
       .partners {
         margin-bottom: 7.2rem;
+      }
+
+      .mb-md-6 {
+          margin-bottom: 0 !important;
       }
 }
 
