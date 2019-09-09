@@ -2793,10 +2793,9 @@
     .my-md-5 {
       margin-bottom: 3rem !important;
     }
-
     .mb-md-6,
     .my-md-6 {
-      margin-bottom: 5.5rem !important;
+      margin-bottom: 5.5rem;
     }
     .ml-md-5,
     .mx-md-5 {
