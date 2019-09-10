@@ -1,163 +1,163 @@
 /* FONTS */
 
 @font-face {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    src: url("../fonts/roboto-v20-latin-300.woff2") format("woff2"),
-      url("../fonts/roboto-v20-latin-300.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
-      url("../fonts/roboto-v20-latin-regular.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
-      url("../fonts/montserrat-v14-latin-regular.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
-      url("../fonts/montserrat-v14-latin-700.woff") format("woff");
-  }
-  
-  /* GENERAL SETTINGS */
-  
-  html {
-    box-sizing: border-box;
-    font-size: 10px;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-  
-  body {
-    color: #333333;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    line-height: 1.15;
-    font-size: 1.5rem;
-  }
-  
-  /* visually-hidden helper */
-  .visually-hidden:not(:focus):not(:active),
-  input[type="checkbox"].visually-hidden,
-  input[type="radio"].visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-  
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-v20-latin-300.woff2") format("woff2"),
+    url("../fonts/roboto-v20-latin-300.woff") format("woff");
+}
 
-  .page-button {
-    margin: 0;
-    padding: 0;
-    width: 24.2rem;
-    height: 4.2rem;
-    border: 2px solid rgb(255, 78, 80);
-    border-radius: 2rem;
-    background-color: transparent;
-    color: rgb(255, 78, 80);
-    cursor: pointer;
-    transition: 100ms;
-  }
-  
-  .partners .page-button:hover,
-  .partners .page-button:focus {
-    border: none;
-    background-color: rgb(255, 78, 80);
-    color: #ffffff;
-  }
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v20-latin-regular.woff") format("woff");
+}
 
-  /* HEADER START */
-  
-  .page-header {
-    margin-bottom: 5.3rem;
-    background-color: #000000;
-    background-image: url(../img/header-background-1440.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .log_in,
-  .sign_up {
-    padding: 0;
-    width: 92px;
-    height: 37px;
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
-    color: #ffffff;
-    transition: border 100ms linear;
-  }
-  
-  .log_in:hover,
-  .sign_up:hover {
-      border: 2px solid #ffffff;
-      border-radius: 2rem;
-  }
-  
-  .page-logo {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 2rem;
-  }
-  
-  .header-title {
-    margin: 0;
-    padding: 0;
-    font-size: 3rem;
-    text-transform: uppercase;
-    margin-bottom: 1.2rem;
-  }
-  
-  .header-subtitle {
-    margin: 0;
-    padding: 0 3rem;
-    font-family: "Roboto";
-    font-weight: 300;
-    font-size: 1.8rem;
-    margin-bottom: 1.7rem;
-  }
-  
-  .page-header .page-button {
-    background-color: #ff4e50;
-    color: #ffffff;
-  }
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
+    url("../fonts/montserrat-v14-latin-regular.woff") format("woff");
+}
 
-  /* SECTION PARTNERS START */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
+    url("../fonts/montserrat-v14-latin-700.woff") format("woff");
+}
+
+/* GENERAL SETTINGS */
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.15;
+  font-size: 1.5rem;
+}
+
+/* visually-hidden helper */
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.page-button {
+  margin: 0;
+  padding: 0;
+  width: 24.2rem;
+  height: 4.2rem;
+  border: 2px solid rgb(255, 78, 80);
+  border-radius: 2rem;
+  background-color: transparent;
+  color: rgb(255, 78, 80);
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.partners .page-button:hover,
+.partners .page-button:focus {
+  border: none;
+  background-color: rgb(255, 78, 80);
+  color: #ffffff;
+}
+
+/* HEADER START */
+
+.page-header {
+  margin-bottom: 5.3rem;
+  background-color: #000000;
+  background-image: url(../img/header-background-1440.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+.log_in,
+.sign_up {
+  padding: 0;
+  width: 92px;
+  height: 37px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  transition: border 100ms linear;
+}
+
+.log_in:hover,
+.sign_up:hover {
+  border: 2px solid #ffffff;
+  border-radius: 2rem;
+}
+
+.page-logo {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.header-title {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.header-subtitle {
+  margin: 0;
+  padding: 0 3rem;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin-bottom: 1.7rem;
+}
+
+.page-header .page-button {
+  background-color: #ff4e50;
+  color: #ffffff;
+}
+
+/* SECTION PARTNERS START */
 
 .partners {
   text-align: center;
