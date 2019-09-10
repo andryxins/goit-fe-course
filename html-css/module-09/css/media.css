@@ -1,110 +1,97 @@
 @media (max-width: 767px) {
   .page-header {
-      padding-top: 2rem;
+    padding-top: 2rem;
   }
   .user-controls {
     margin-bottom: 14.2rem;
   }
 
   .page-logo {
-      margin-bottom: 3.5rem;
+    margin-bottom: 3.5rem;
   }
 
   .header-title {
-      margin-right: -1px;
-      margin-left: -1px;
-      margin-bottom: 1.5rem;
+    margin-right: -1px;
+    margin-left: -1px;
+    margin-bottom: 1.5rem;
   }
 
   .page-header .page-button {
-      margin-bottom: 13.8rem;
+    margin-bottom: 13.8rem;
   }
 
   .partners-title {
-      margin-bottom: 1.7rem;
+    margin-bottom: 1.7rem;
   }
 
   .partners-list-item {
     margin-bottom: 2.7rem;
   }
-
 }
 
 @media (min-width: 768px) {
+  .page-header {
+    padding-top: 4rem;
+  }
 
-    .page-header {
-        padding-top: 4rem;
-    }
+  .page-logo,
+  .user-controls {
+    margin-bottom: 14.6rem;
+  }
 
-    .page-logo,
-    .user-controls {
-        margin-bottom: 14.6rem;
-    }
+  .header-title {
+    margin-bottom: 3.5rem;
+    font-size: 5.2rem;
+  }
 
-    .header-title {
-        margin-bottom: 3.5rem;
-        font-size: 5.2rem;
-    }
+  .header-subtitle {
+    padding: 0;
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+  }
+  .page-header .page-button {
+    margin-bottom: 23.3rem;
+  }
 
-    .header-subtitle {
-        padding: 0;
-        font-size: 2.4rem;
-        margin-bottom: 3rem;
-    }
-    .page-header .page-button {
-        margin-bottom: 23.3rem;
-    }
+  .partners-title {
+    margin-bottom: 2.9rem;
+  }
 
-    .partners-title {
-        margin-bottom: 2.9rem;
-    }
+  .partners-list-item::after {
+    right: 80px;
+  }
 
-    .partners-list-item::after {
-        right: 80px;
-      }
+  .partners .page-button {
+    width: 20rem;
+  }
 
-    .partners .page-button {
-        width: 20rem;
-    }
-
-    .partners-list {
-        margin-bottom: 3.7rem;
-    }
+  .partners-list {
+    margin-bottom: 3.7rem;
+  }
 }
-
-/* @media (min-width: 768px) and (max-width: 939px) {
-    .partners-list-item:nth-child(odd) {
-            margin-bottom: 5.5rem;
-    }
-} */
 
 @media (min-width: 940px) {
-    .page-header {
-        padding-top: 3.8rem;
-    }
+  .page-header {
+    padding-top: 3.8rem;
+  }
 
-    .partners-list {
-        margin-bottom: 3.9rem;
-      }
+  .partners-list {
+    margin-bottom: 3.9rem;
+  }
 
-    .partners-title {
-        margin-bottom: 3.6rem;
-      }
+  .partners-title {
+    margin-bottom: 3.6rem;
+  }
 
-      .partners-list-item-description {
-        padding: 0;
-      }
+  .partners-list-item-description {
+    padding: 0;
+  }
 
-    .partners-list-item::after {
-        right: 45px;
-      }
+  .partners-list-item::after {
+    right: 45px;
+  }
 
-      .partners {
-        margin-bottom: 7.2rem;
-      }
-
-      .mb-md-6 {
-          margin-bottom: 0;
-      }
+  .partners {
+    margin-bottom: 7.2rem;
+  }
 }
-
