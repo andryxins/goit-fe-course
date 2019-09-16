@@ -22,7 +22,8 @@
   </head>
   <body>
     <header>
-      <div class="page-header container">
+      <div class="page-header">
+        <div class="container">
         <nav class="page-nav">
           <a href="#" class="page-logo">MoGo</a>
           <ul class="nav">
@@ -42,19 +43,31 @@
               <a class="nav__item--link" href="#">contact</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__item--icon"><img src="img/svg/shopping-icon.svg" alt="" width="38" height="32"></a>
+              <a href="#" class="nav__item--icon">
+                <svg class="nav__svg">
+                  <use href="img/svg/interactive-icons.svg#icon-shopping-icon"></use>
+                </svg>
+              </a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__item--icon"><img src="img/svg/search-icon.svg" alt="" width="32" height="32"></a>
+              <a href="#" class="nav__item--icon">
+                <svg class="nav__svg">
+                  <use href="img/svg/interactive-icons.svg#icon-search-icon"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </nav>
+        <p class="sub-title sub-title--header">Creative Template</p>
+        <h2 class="title title--header">Welcome to MoGo</h2>
+        <button class="header__button">Learn More</button>
+      </div>  
       </div>
     </header>
     <main>
       <section class="service container">
-        <p class="service-sub_title">We work with</p>
-        <h2 class="service-title">amazing services</h2>
+        <p class="sub-title">We work with</p>
+        <h2 class="title title--decoration">amazing services</h2>
         <ul class="service-features-list">
           <li class="service-features-list-item photography">
             <p class="list-item-title">photography</p>
@@ -98,8 +111,8 @@
         </ul>
       </section>
       <section class="our_team container">
-        <p class="our_team-sub_title">Who we are</p>
-        <h2 class="our_team-title">Meet our team</h2>
+        <p class="sub-title">Who we are</p>
+        <h2 class="title title--decoration">Meet our team</h2>
         <p class="our_team-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -111,55 +124,74 @@
             <div class="our_team-list-item-hover">
               <ul class="members_socials-list">
                 <li>
-                  <a class="member_socials-item facebook" href="#">
-                    <span class="visually-hidden">facebook</span>
+                  <a class="member_socials-item" href="#">
+                    <svg class="socials__icons">
+                      <use href="img/svg/interactive-icons.svg#icon-facebook-icon"></use>
+                    </svg>
                   </a>
                 </li>
                 <li>
-                  <a class="member_socials-item twitter" href="#">
-                    <span class="visually-hidden">twitter</span>
+                  <a class="member_socials-item" href="#">
+                    <svg class="socials__icons">
+                      <use href="img/svg/interactive-icons.svg#icon-twitter-icon"></use>
+                    </svg>
                   </a>
                 </li>
                 <li>
-                  <a class="member_socials-item pinterest" href="#">
-                    <span class="visually-hidden">pinterest</span>
+                  <a class="member_socials-item" href="#">
+                    <svg class="socials__icons">
+                      <use href="img/svg/interactive-icons.svg#icon-pinterest-icon"></use>
+                    </svg>
                   </a>
                 </li>
                 <li>
-                  <a class="member_socials-item instagram" href="#">
-                    <span class="visually-hidden">instagram</span>
+                  <a class="member_socials-item" href="#">
+                    <svg class="socials__icons">
+                      <use href="img/svg/interactive-icons.svg#icon-instagram-icon"></use>
+                    </svg>
                   </a>
                 </li>
               </ul>
             </div>
-            <img class="our_team-list-item-img" src="img/team-member-1.png" alt="team member" width="380" height="470"/>
+            <img class="our_team-list-item-img" 
+            srcset="img/team-member-1.png w380, team-member-1@2x w760" 
+            src="img/team-member-1.png" alt="team member" 
+            sizes="380" height="470"/>
             <p class="our_team-list-item-member">Matthew Dix</p>
             <p class="our_team-list-item-occupation">Graphic Design</p>
           </li>
           <li class="our_team-list-item">
             <div class="our_team-list-item-hover">
-              <ul class="members_socials-list">
-                <li>
-                  <a class="member_socials-item facebook" href="#">
-                    <span class="visually-hidden">facebook</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="member_socials-item twitter" href="#">
-                    <span class="visually-hidden">twitter</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="member_socials-item pinterest" href="#">
-                    <span class="visually-hidden">pinterest</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="member_socials-item instagram" href="#">
-                    <span class="visually-hidden">instagram</span>
-                  </a>
-                </li>
-              </ul>
+                <ul class="members_socials-list">
+                    <li>
+                      <a class="member_socials-item" href="#">
+                        <svg class="socials__icons">
+                          <use href="img/svg/interactive-icons.svg#icon-facebook-icon"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="member_socials-item" href="#">
+                        <svg class="socials__icons">
+                          <use href="img/svg/interactive-icons.svg#icon-twitter-icon"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="member_socials-item" href="#">
+                        <svg class="socials__icons">
+                          <use href="img/svg/interactive-icons.svg#icon-pinterest-icon"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="member_socials-item" href="#">
+                        <svg class="socials__icons">
+                          <use href="img/svg/interactive-icons.svg#icon-instagram-icon"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
             </div>
             <img class="our_team-list-item-img" src="img/team-member-2.png" alt="team member" width="380" height="470"/>
             <p class="our_team-list-item-member">Christopher Campbell</p>
@@ -167,28 +199,36 @@
           </li>
           <li class="our_team-list-item">
             <div class="our_team-list-item-hover">
-              <ul class="members_socials-list">
-                <li>
-                  <a class="member_socials-item facebook" href="#">
-                    <span class="visually-hidden">facebook</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="member_socials-item twitter" href="#">
-                    <span class="visually-hidden">twitter</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="member_socials-item pinterest" href="#">
-                    <span class="visually-hidden">pinterest</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="member_socials-item instagram" href="#">
-                    <span class="visually-hidden">instagram</span>
-                  </a>
-                </li>
-              </ul>
+                <ul class="members_socials-list">
+                    <li>
+                      <a class="member_socials-item" href="#">
+                        <svg class="socials__icons">
+                          <use href="img/svg/interactive-icons.svg#icon-facebook-icon"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="member_socials-item" href="#">
+                        <svg class="socials__icons">
+                          <use href="img/svg/interactive-icons.svg#icon-twitter-icon"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="member_socials-item" href="#">
+                        <svg class="socials__icons">
+                          <use href="img/svg/interactive-icons.svg#icon-pinterest-icon"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="member_socials-item" href="#">
+                        <svg class="socials__icons">
+                          <use href="img/svg/interactive-icons.svg#icon-instagram-icon"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
             </div>
             <img class="our_team-list-item-img" src="img/team-member-3.png" alt="team member" width="380" height="470"/>
             <p class="our_team-list-item-member">Michael Fertig</p>
