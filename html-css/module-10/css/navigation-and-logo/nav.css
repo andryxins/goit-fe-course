@@ -1,14 +1,22 @@
 @import url(logo.css);
 
 .page-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 143px;
 }
   
   .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -28,6 +36,8 @@
     font-family: var(--title-font);
     font-size: 14px;
     font-weight: 400;
+    -webkit-transition: color var(--transition-duration) linear;
+    -o-transition: color var(--transition-duration) linear;
     transition: color var(--transition-duration) linear;
   }
   
@@ -38,6 +48,8 @@
     height: 3px;
     background-color: #fce38a;
     opacity: 0;
+    -webkit-transition: opacity var(--transition-duration) linear;
+    -o-transition: opacity var(--transition-duration) linear;
     transition: opacity var(--transition-duration) linear;
   }
   
