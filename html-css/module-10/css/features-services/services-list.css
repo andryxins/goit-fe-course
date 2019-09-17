@@ -21,27 +21,27 @@
   }
   
   .item__icon--photography {
-    background-image: url(../img/svg/features--svg/alarm.svg);
+    background-image: url(../../img/svg/features--svg/alarm.svg);
   }
   
   .item__icon--web-design {
-    background-image: url(../img/svg/features--svg/line-graph.svg);
+    background-image: url(../../img/svg/features--svg/line-graph.svg);
   }
   
   .item__icon--creativity {
-    background-image: url(../img/svg/features--svg/computer.svg);
+    background-image: url(../../img/svg/features--svg/computer.svg);
   }
   
   .item__icon--seo {
-    background-image: url(../img/svg/features--svg/book.svg);
+    background-image: url(../../img/svg/features--svg/book.svg);
   }
   
   .item__icon--html-css {
-    background-image: url(../img/svg/features--svg/home.svg);
+    background-image: url(../../img/svg/features--svg/home.svg);
   }
   
   .item__icon--digital {
-    background-image: url(../img/svg/features--svg/digital.svg);
+    background-image: url(../../img/svg/features--svg/digital.svg);
   }
   
   .features-list__title {

@@ -1,16 +1,10 @@
+@import url(logo.css);
+
 .page-nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 143px;
 }
-
-.page-logo {
-    font-family: var(--title-font);
-    font-size: var(--title-font-size);;
-    font-weight: 700;
-    text-decoration: none;
-    color: #ffffff;
-  }
   
   .nav {
     display: flex;

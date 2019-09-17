@@ -1,0 +1,7 @@
+.page-logo {
+    font-family: var(--title-font);
+    font-size: var(--title-font-size);;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+  }

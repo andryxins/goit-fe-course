@@ -1,9 +1,9 @@
-@import url(nav.css);
-@import url(typography.css);
-@import url(services-list.css);
-@import url(members-cards.css);
-@import url(socials.css);
-@import url(footer.css);
+@import url(navigation-and-logo/nav.css);
+@import url(typography/typography.css);
+@import url(features-services/services-list.css);
+@import url(members/members-cards.css);
+@import url(socials/socials.css);
+@import url(footer/footer.css);
 
 /* GENERAL SETTINGS */
 
