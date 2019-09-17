@@ -1,0 +1,63 @@
+.our-team__members {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .members__card {
+    position: relative;
+  }
+  
+  .members__card--hover {
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(238, 137, 138, 0.9),
+      rgba(238, 215, 136, 0.9)
+    );
+    opacity: 0;
+    z-index: 3;
+    transition: opacity, transform var(--transition-duration) linear;
+  }
+  
+  .members__card::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 380px;
+    height: 470px;
+    background-color: #95e1d3;
+  }
+  
+  .members__img {
+    margin-bottom: 30px;
+    transition: z-index, transform var(--transition-duration) linear;
+  }
+  
+  .members__name {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: var(--title-font);
+    line-height: var(--title-line-height);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 7px;
+  }
+  
+  .members__occupation {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+    color: #999999;
+  }
+  

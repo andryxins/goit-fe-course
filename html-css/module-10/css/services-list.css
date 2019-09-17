@@ -1,0 +1,64 @@
+.services__list {
+    margin: 0;
+    padding: 0;
+    padding-top: 62px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  .features-list__item {
+    flex-basis: 381px;
+    position: relative;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: 30px 2px;
+  }
+  
+  .features-list__item:nth-child(-n + 3) {
+    margin-bottom: 94px;
+  }
+  
+  .item__icon--photography {
+    background-image: url(../img/svg/features--svg/alarm.svg);
+  }
+  
+  .item__icon--web-design {
+    background-image: url(../img/svg/features--svg/line-graph.svg);
+  }
+  
+  .item__icon--creativity {
+    background-image: url(../img/svg/features--svg/computer.svg);
+  }
+  
+  .item__icon--seo {
+    background-image: url(../img/svg/features--svg/book.svg);
+  }
+  
+  .item__icon--html-css {
+    background-image: url(../img/svg/features--svg/home.svg);
+  }
+  
+  .item__icon--digital {
+    background-image: url(../img/svg/features--svg/digital.svg);
+  }
+  
+  .features-list__title {
+    font-family: var(--title-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: var(--title-line-height);
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding-left: 90px;
+    margin-bottom: 12px;
+  }
+  
+  .features-list__text {
+    margin: 0;
+    padding: 0;
+    color: #999999;
+    padding-left: 90px;
+  }
