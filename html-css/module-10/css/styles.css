@@ -86,15 +86,19 @@ img {
 }
 
 .header__button {
-  display: block;
   margin: 0 auto;
+  margin-bottom: 218px;
+}
+
+.btn {
+  display: block;
   color: #ffffff;
   width: 162px;
   height: 40px;
   background-color: transparent;
   border: 3px solid #ffffff;
   cursor: pointer;
-  margin-bottom: 218px;
+  text-transform: uppercase;
 }
 
 /* HEADER END */
