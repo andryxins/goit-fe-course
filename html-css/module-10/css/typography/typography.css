@@ -1,4 +1,4 @@
-.sub-title {
+.subtitle {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -9,7 +9,7 @@
     margin-bottom: 14px;
   }
   
-  .sub-title--header {
+  .subtitle--header {
     font-size: 72px;
     color: #ffffff;
     margin-bottom: 32px;
