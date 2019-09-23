@@ -2,4 +2,9 @@
    Import partials below
 */
 @import './normalize';
+@import 'helpers/variables.scss';
+@import 'helpers/mixins.scss';
 
+body {
+   background-color: $main-background-color;
+}
