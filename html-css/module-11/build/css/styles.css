@@ -377,14 +377,19 @@ template {
 
 .subtitle,
 .title,
+.services,
 .features__list-title,
-.features__list-text {
+.features__list-text,
+.members__name,
+.members__occupation {
   margin: 0;
   padding: 0;
 }
 
 .nav__list,
-.features__list {
+.features__list,
+.our-team__members,
+.socials__list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -575,6 +580,10 @@ img {
   fill: #fce38a;
 }
 
+.services {
+  padding-top: 57px;
+}
+
 .features__list {
   padding-top: 62px;
   display: flex;
@@ -629,6 +638,123 @@ img {
 
 .item__icon--digital {
   background-image: url(../images/features--svg/digital.svg);
+}
+
+.our-team {
+  padding: 0;
+  padding-top: 86px;
+  padding-bottom: 78px;
+}
+
+.our-team__desc {
+  margin: 0 auto;
+  width: 980px;
+  text-align: center;
+  color: #999999;
+  margin-bottom: 89px;
+  padding-top: 39px;
+}
+
+.our-team__members {
+  display: flex;
+  justify-content: space-between;
+}
+
+.members__card {
+  position: relative;
+}
+
+.members__card--hover {
+  width: 380px;
+  height: 470px;
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(238, 137, 138, 0.9), rgba(238, 215, 136, 0.9));
+  opacity: 0;
+  z-index: 3;
+  transition: opacity, transform 0.2s linear;
+}
+
+.members__card:hover .socials__list {
+  opacity: 1;
+}
+
+.members__card:hover .members__card--hover {
+  opacity: 1;
+  transform: translate(-2%, -2%);
+}
+
+.members__card:hover .members__img {
+  transform: translate(-2%, -2%);
+  z-index: -1;
+}
+
+.members__card::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 380px;
+  height: 470px;
+  background-color: #95e1d3;
+}
+
+.members__img {
+  margin-bottom: 30px;
+  transition: z-index, transform 0.2s linear;
+}
+
+.members__name {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.members__occupation {
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  color: #999999;
+}
+
+.socials__list {
+  position: absolute;
+  top: 206px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 224px;
+  align-items: center;
+  opacity: 0;
+  z-index: 5;
+  transition: opacity 0.2s linear;
+}
+
+.socials__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  background-color: #fce38a;
+}
+
+.socials__link:hover {
+  background-color: #f38181;
+}
+
+.socials__link:hover .socials__icons {
+  fill: #ffffff;
+}
+
+.socials__icons {
+  display: inline-block;
+  width: 50%;
+  height: 20px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {

@@ -1,0 +1,53 @@
+.socials__list {
+  @extend %list-default-reset;
+  position: absolute;
+  top: 206px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 224px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0;
+  z-index: 5;
+  -webkit-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+
+.socials__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  background-color: $accent-color;
+
+  &:hover {
+    background-color: $secondary-accent-color;
+  }
+
+  &:hover .socials__icons {
+    fill: $secondary-font-color;
+  }
+}
+
+.socials__icons {
+  display: inline-block;
+  width: 50%;
+  height: 20px;
+}  

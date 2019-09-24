@@ -1,3 +1,8 @@
+.services {
+  @extend %margin-padding-reset;
+  padding-top: 57px;
+}
+
 .features__list {
   @extend %list-default-reset;
   padding-top: 62px;
