@@ -3,35 +3,19 @@
   position: absolute;
   top: 206px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 224px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   opacity: 0;
   z-index: 5;
-  -webkit-transition: opacity 0.2s linear;
-  -o-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
 }
 
 .socials__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   width: 55px;
   height: 55px;
@@ -47,8 +31,10 @@
 }
 
 .socials__icons {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
   width: 50%;
-  height: 26px;
   fill: $secondary-accent-color;
 }
