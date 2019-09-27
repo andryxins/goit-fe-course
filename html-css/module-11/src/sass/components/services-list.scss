@@ -6,18 +6,12 @@
 .features__list {
   @extend %list-default-reset;
   padding-top: 62px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .features__list-item {
-  -ms-flex-preferred-size: 381px;
   flex-basis: 381px;
   position: relative;
   background-repeat: no-repeat;
