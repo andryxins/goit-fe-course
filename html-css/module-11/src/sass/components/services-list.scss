@@ -38,4 +38,8 @@
   padding-left: 90px;
 }
 
-@include generate-pseudo-icons('item__icon--', '$icons', '../images/icon-', 'svg');
+@include generate-pseudo-icons(
+  'item__icon--',
+  '$icons',
+  '../images/icon-',
+  'svg');
