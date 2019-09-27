@@ -1,0 +1,71 @@
+.our-team__members {
+  @extend %list-default-reset;
+  display: flex;
+  justify-content: space-between;
+}
+
+.members__card {
+  position: relative;
+
+  &--hover {
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    background: linear-gradient(
+      to bottom,
+      rgba(238, 137, 138, 0.9),
+      rgba(238, 215, 136, 0.9)
+    );
+    opacity: 0;
+    z-index: 3;
+    transition: opacity, transform 0.2s linear;
+  }
+
+  &:hover .socials__list {
+    opacity: 1;
+  }
+  
+  &:hover .members__card--hover {
+    opacity: 1;
+    transform: translate(-2%, -2%);
+  }
+  
+  &:hover .members__img {
+    transform: translate(-2%, -2%);
+    z-index: -1;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 380px;
+    height: 470px;
+    background-color: #95e1d3;
+  }
+}
+
+.members__img {
+  margin-bottom: 30px;
+  transition: z-index, transform 0.2s linear;
+}
+
+.members__name {
+  @extend %margin-padding-reset;
+  text-align: center;
+  font-family: $titles-font-stack;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.members__occupation {
+  @extend %margin-padding-reset;
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  color: $text-font-color;
+}
