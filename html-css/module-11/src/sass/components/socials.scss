@@ -20,6 +20,7 @@
   width: 55px;
   height: 55px;
   background-color: $accent-color;
+  transition: background-color 0.2s linear;
 
   &:hover {
     background-color: $secondary-accent-color;
@@ -37,4 +38,5 @@
   height: 50%;
   width: 50%;
   fill: $secondary-accent-color;
+  transition: fill 0.2s linear;
 }

@@ -747,6 +747,7 @@ img {
   width: 55px;
   height: 55px;
   background-color: #fce38a;
+  transition: background-color 0.2s linear;
 }
 
 .socials__link:hover {
@@ -764,6 +765,7 @@ img {
   height: 50%;
   width: 50%;
   fill: #f38181;
+  transition: fill 0.2s linear;
 }
 
 .footer {

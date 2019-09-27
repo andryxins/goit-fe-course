@@ -1,2 +1,0 @@
-fix nav items
-added transition on socials icons 
