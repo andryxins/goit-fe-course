@@ -1,7 +1,0 @@
-@mixin generate-pseudo-icons($baseclass, $list, $path, $ext) {
-  @each $icon in $list {
-    .#{$baseclass}#{$icon} {
-      background-image: url(#{$path}#{$icon}.#{$ext});
-    }
-  }
-}

@@ -622,8 +622,28 @@ img {
   padding-left: 90px;
 }
 
-.item__icon--$icons {
-  background-image: url(../images/icon-$icons.svg);
+.item__icon--photography {
+  background-image: url(../images/icon-alarm.svg);
+}
+
+.item__icon--web-design {
+  background-image: url(../images/icon-line-graph.svg);
+}
+
+.item__icon--creativity {
+  background-image: url(../images/icon-computer.svg);
+}
+
+.item__icon--seo {
+  background-image: url(../images/icon-book.svg);
+}
+
+.item__icon--html-css {
+  background-image: url(../images/icon-home.svg);
+}
+
+.item__icon--digital {
+  background-image: url(../images/icon-digital.svg);
 }
 
 .our-team {
